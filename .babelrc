@@ -4,17 +4,17 @@
 	],
   "plugins": [
     ["module-resolver", {
-      "root": ["./src"],
+      "root": ["./api"],
       "alias": {
-        "src": "./src",
-				"contexts": "./src/contexts",
-				"controllers": "./src/controllers",
-				"helpers": "./src/helpers",
-				"initializers": "./src/initializers",
-				"middlewares": "./src/middlewares",
-				"models": "./src/models",
-				"modules": "./src/modules",
-				"serializers": "./src/serializers"
+        "api": "./api",
+				"contexts": "./api/contexts",
+				"controllers": "./api/controllers",
+				"helpers": "./api/helpers",
+				"initializers": "./api/initializers",
+				"middlewares": "./api/middlewares",
+				"models": "./api/models",
+				"modules": "./api/modules",
+				"serializers": "./api/serializers"
       }
     }]
   ]
